@@ -1,0 +1,26 @@
+.titulo {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: white;
+    /* font-style: italic; */
+}
+
+.letrasSabores{
+    color: white;
+}
+
+.fondoLista{
+    background-color: transparent;
+    text-align: center;
+    border: none;
+    /* color: white; */
+}
+.cachimbas{
+    background-image: url('../../../assets/imgs/car1.png');
+    background-repeat: no-repeat;
+     /* background-attachment: fixed; */
+     background-size: cover;
+}

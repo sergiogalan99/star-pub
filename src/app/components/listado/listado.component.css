@@ -1,0 +1,49 @@
+.titulo {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: white;
+    /* font-style: italic; */
+}
+
+.bocadillos {
+    background-image: url('../../../assets/imgs/bocadillos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sandwich {
+    background-image: url('../../../assets/imgs/sandwich.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.raciones{
+    background-image: url('../../../assets/imgs/raciones.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.chapatas{
+    background-image: url('../../../assets/imgs/chapatas.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.letrasComida{
+    color: black;
+}
+
+.fondoLista{
+    background-color: transparent;
+    /* opacity: 0.9; */
+    border: none;
+    color: black;
+}
+.fw-bold{
+    color: green;
+}
+
+.me-auto{
+    font-weight:  bolder
+}
