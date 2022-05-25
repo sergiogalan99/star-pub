@@ -1,49 +1,234 @@
 .titulo {
     text-align: center;
+    width: 100%;
 }
 
 p {
     text-align: center;
     color: white;
-    /* font-style: italic; */
+}
+.combinados { 
+    position: relative; 
+    border: 1px solid grey;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-image: url('../../../assets/imgs/combinados.png');
+    background-size: cover;
 }
 
-.bocadillos {
-    background-image: url('../../../assets/imgs/bocadillos.png');
-    background-repeat: no-repeat;
+.combinados::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.6);
+}
+.chapatas { 
+    position: relative; 
+    border: 1px solid grey;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-image: url('../../../assets/imgs/chapata.png');
     background-size: cover;
 }
-.sandwich {
-    background-image: url('../../../assets/imgs/sandwich.png');
-    background-repeat: no-repeat;
+.bocadillos::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.6);
+}
+.bocadillos { 
+    position: relative; 
+    border: 1px solid grey;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-image: url('../../../assets/imgs/bocadillo.png');
     background-size: cover;
 }
-.raciones{
-    background-image: url('../../../assets/imgs/raciones.png');
-    background-repeat: no-repeat;
+
+.chapatas::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.6);
+}
+.paella { 
+    position: relative; 
+    border: 1px solid grey;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-image: url('../../../assets/imgs/paella.png');
     background-size: cover;
 }
-.chapatas{
-    background-image: url('../../../assets/imgs/chapatas.png');
-    background-repeat: no-repeat;
+
+.paella::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.6);
+}
+.sandwich { 
+    position: relative; 
+    border: 1px solid grey;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-image: url('../../../assets/imgs/sandwich2.png');
     background-size: cover;
 }
+
+.sandwich::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.6);
+}
+.hamburguesa { 
+    position: relative; 
+    border: 1px solid grey;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-image: url('../../../assets/imgs/burger.png');
+    background-size: cover;
+}
+
+.hamburguesa::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.6);
+}
+.ensaladas { 
+    position: relative; 
+    border: 1px solid grey;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-image: url('../../../assets/imgs/enslaada.png');
+    background-size: cover;
+}
+
+.ensaladas::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.6);
+}
+.carnes { 
+    position: relative; 
+    border: 1px solid grey;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-image: url('../../../assets/imgs/fielte.png');
+    background-size: cover;
+}
+
+.carnes::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.6);
+}
+.pescados { 
+    position: relative; 
+    border: 1px solid grey;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-image: url('../../../assets/imgs/anilla.png');
+    background-size: cover;
+}
+
+.pescados::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.6);
+}
+.varios { 
+    position: relative; 
+    border: 1px solid grey;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-image: url('../../../assets/imgs/bacon-cheese-fries.png');
+    background-size: cover;
+}
+
+.varios::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.6);
+}
+
 
 
 .letrasComida{
-    color: black;
+    color: white;
 }
 
 .fondoLista{
     background-color: transparent;
     /* opacity: 0.9; */
     border: none;
-    color: black;
+    color: white;
 }
-.fw-bold{
-    color: green;
-}
+
 
 .me-auto{
     font-weight:  bolder
+}
+
+.fw-bold{
+    color:white
+}
+hr{
+    text-align: center;
+    width : 100%;
+    margin: 0%;
+    
+
+}
+.descripcion{
+    color: #F4F667;
+}
+
+.subclases{
+    place-self: center;
 }

@@ -9,18 +9,47 @@ p {
 }
 
 .letrasSabores{
-    color: white;
+    color: #F4F667;
 }
 
 .fondoLista{
     background-color: transparent;
-    text-align: center;
+    /* text-align: center; */
     border: none;
     /* color: white; */
 }
-.cachimbas{
-    background-image: url('../../../assets/imgs/car1.png');
-    background-repeat: no-repeat;
-     /* background-attachment: fixed; */
-     background-size: cover;
+
+
+
+.cachimbas { 
+    position: relative; 
+    border: 1px solid grey;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-image: url('../../../assets/imgs/fondo.jpg');
+    background-size: cover;
 }
+
+.cachimbas::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.6);
+}
+hr{
+    /* text-align: center; */
+    width : 100%;
+    margin: 0%;
+    color: lightgrey;
+    
+
+}
+
+.fw-bold{
+    color: white;
+}
+
